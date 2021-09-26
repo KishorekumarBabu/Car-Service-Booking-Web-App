@@ -1,0 +1,11 @@
+.carousel-next {
+  right: 0px;
+  background: var(--main-default-bg-color);
+  border-radius: 0px;
+}
+
+.carousel-prev {
+  left: 0px;
+  background: var(--main-default-bg-color);
+  border-radius: 0px !important;
+}

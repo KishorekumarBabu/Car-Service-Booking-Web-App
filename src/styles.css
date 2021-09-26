@@ -1,0 +1,32 @@
+:root {
+  --main-bg-color: #339ac2;
+  --main-title-color: #339ac2;
+  --main-border-color: #339ac2;
+  --main-margin-bottom: 0.875rem;
+  --main-font-family: sans-serif;
+  --main-header-color: #0b2946;
+  --main-default-bg-color: #ffffff;
+  --main-default-text-color: #ffffff;
+}
+
+.App {
+  font-family: var(--main-font-family);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.header {
+  color: var(--main-header-color) !important;
+  min-height: auto !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+  background: #d3d3d3;
+}
+
+#Services .carousel-track {
+  height: 325px;
+}
+
+#Testimonials .carousel-track {
+  height: 160px;
+}
